@@ -15,9 +15,34 @@
   background-color: #ddd;
   color: black;
 }
+.navbar-brand{
+    text-align: center;
+    font-family: "Courier New", courier, monospace;
+    
+}
+.item_Active{
+    width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  
+}
 
-.Search_Bar_and_Under{
-    align-content: right;
-    align-items: right;
+    
+.navbar{
+    background-color: beige;
+    
+}
+
+.buy_tab{
+    
+}
+
+.product_name h1{
+    float : left;
+    font-family: "Serif",times new roman;
+    background-color: aquamarine;
+    width: auto;
+    
     
 }
