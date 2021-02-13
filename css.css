@@ -55,3 +55,8 @@
     padding: 10px;
     background-color: ivory;
 }
+
+.item img{
+    float: left;
+    width: 50%;
+}
