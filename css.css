@@ -27,7 +27,9 @@
   box-sizing: border-box;
   
 }
-
+.collapse navbar-collapse{
+    float: left;
+}
     
 .navbar{
     background-color: mintcream;
@@ -53,13 +55,13 @@
     border-style: ridge;
     font-family: Arial;
     padding: 10px;
-    background-color: ivory;
+    background-color: mintcream;
 }
 .description_tab h1 {
     border-style: ridge;
     font-family: Arial;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color:  paleturquoise;
 }
 .item img{
     float: left;
