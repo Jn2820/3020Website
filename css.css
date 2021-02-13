@@ -15,7 +15,7 @@
   background-color: #ddd;
   color: black;
 }
-.navbar-brand{
+.navbar-brand {
     text-align: center;
     font-family: "Courier New", courier, monospace;
     
@@ -34,8 +34,13 @@
     
 }
 
-.buy_tab{
-    
+.buy_tab p1{
+   color: teal; 
+    border-radius: 25px;
+  background: bisque;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 
 .product_name h1{
@@ -43,6 +48,7 @@
     font-family: "Serif",times new roman;
     background-color: aquamarine;
     width: auto;
-    
+}
+.description_tab p{
     
 }
