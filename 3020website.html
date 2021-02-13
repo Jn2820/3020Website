@@ -19,33 +19,35 @@
 
 <body>
 
-    <nav class=" navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">BADegg</a>
+    <nav class="navbar navbar-expand lg navbar-light bglight">
+        <a class="navbar-brand" href="https://www.google.com/search?q=rotten+egg&tbm=isch&chips=q:rotten+egg,g_1:clipart:dF8paIJRKWg%3D&hl=en&sa=X&ved=2ahUKEwi2qa_v2-XuAhWZJ80KHfT8Ay0Q4lYoAHoECAEQGQ&biw=1903&bih=969#imgrc=dk2tFcxHOigsNM"> BADegg</a>
+         <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"> </span>
+            </button><!-- comment -->
+            <button type="button" class="btn btn-success">View Cart</button><!-- comment -->
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" title="Search WebSite" placeholder="Keywords, Model # or Item #">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button><!-- comment -->
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav md-auto">
                 <li class="nav-item active">
-
-
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link drowndown-toggle" href"#" id="navbarDropdown"
+                       role="button" data-toggle="dropdown"> Home </a><!-- div -->
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href"#"> Log in/Register </a>
+                           <div class="drowndown-divider"></div>
+                           <a class="dropdown-item" href"#"> Contact us </a>
+                          <div class="drowndown-divider"></div>
+                           <a class="dropdown-item" href"#"> Forum </a>
+                       </div>
                 </li>
-            </ul>
-            </ul>
+            </ul>               
     </nav>
 
-
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Login/Register</a></li>
-        <li><a class="dropdown-item" href="#">Weekly Specials</a></li>
-        <li><a class="dropdown-item" href="#">New Arrivals</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Contact us</a></li>
-    </ul>
 
 
 
@@ -120,7 +122,7 @@
     </div>
     <div class="buy_tab">
         <form class="form-inline">
-            <label class="" for="inlineFormCustomSelectPref">$999.99</label>
+            <label class="price" for="inlineFormCustomSelectPref">$999.99</label>
             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                 <option selected>Quantity</option>
                 <option value="1">One</option>

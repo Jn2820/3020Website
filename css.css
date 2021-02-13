@@ -1,11 +1,11 @@
-
 .Topnav a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+     float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    
 }
 .topnav a {
     overflow: hidden;
@@ -30,7 +30,7 @@
 
     
 .navbar{
-    background-color: beige;
+    background-color: mintcream;
     
 }
 
@@ -49,14 +49,30 @@
     background-color: aquamarine;
     width: auto;
 }
-.description_tab {
+.description_tab p {
     border-style: ridge;
     font-family: Arial;
     padding: 10px;
     background-color: ivory;
 }
-
+.description_tab h1 {
+    border-style: ridge;
+    font-family: Arial;
+    padding: 10px;
+    background-color: antiquewhite;
+}
 .item img{
     float: left;
     width: 50%;
+}
+
+.price{
+    border-style: groove;
+    border-color: red;
+    border-radius: 5px;
+   
+}
+.nav-link{
+    float: right;
+    margin: auto;
 }
