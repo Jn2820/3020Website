@@ -49,6 +49,9 @@
     background-color: aquamarine;
     width: auto;
 }
-.description_tab p{
-    
+.description_tab {
+    border-style: ridge;
+    font-family: Arial;
+    padding: 10px;
+    background-color: ivory;
 }
